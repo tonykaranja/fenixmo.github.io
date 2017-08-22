@@ -1,0 +1,101 @@
+body, html {height: 100%}
+
+ul.topnav {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  z-index: 70;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  float: left;
+  margin: 8px;
+  background: rgba(255,255,255, 0.18);
+  border-radius: 5px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+ul.topnav li a:hover:not(.active) {
+  border: 1px;
+  border-color: rgba(237, 253, 255,0.5);
+  border-style: groove;
+  border-radius: 2.5px;
+  background-color: rgba(237, 253, 255, 0.5);
+
+}
+ul.topnav li a.active {
+  border: 1px;
+  border-color: rgba(237, 253, 255, 0.4);
+  border-style: inset;
+  border-radius: 5px;
+  background-color: rgba(237, 253, 255, 0.3);
+
+}
+ul.topnav li.right {
+  float: right;
+}
+
+.bgimg {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/wood-wall.jpeg");
+  min-height: 80%;
+  background-attachment: fixed;
+}
+
+#home{
+  min-height: 35%;
+}
+
+.paddy {
+  padding-bottom: 16px;
+}
+.title-color{
+  color: #676767;
+}
+
+.woodbcg {
+}
+
+#bodi {
+  margin-bottom: 400px;
+}
+
+#contact {
+  position: relative;
+  /*background-image: url();*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 40px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#qmimg {
+  width:100%;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
