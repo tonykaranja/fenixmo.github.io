@@ -32,22 +32,24 @@
     <!-- Add your site or application content here -->
 
     <!-- Navbar -->
-    <div class="w3-top ">
-      <div class="">
-        <nav>
-          <div class="">
-            <ul id="" class="topnav">
-              <div class="">
-                <li style="float:left"><a href="#home"><strong><i class="fa fa-home" aria-hidden="true"></i></strong></a></li>
-                <li style="float:left"><a href="#aboutMe"><i class="fa fa-user-o" aria-hidden="true"></i><strong> About Me</strong></a></li>
-                <li style="float:left"><a href="#projects"><i class="fa fa-briefcase" aria-hidden="true"></i><strong> Portfolio</strong></a></li>
-                <li style="float:right"><a href="#contact"><i class="fa fa-address-card-o fa-lg" aria-hidden="true"></i><strong> Contact</strong></a></li>
-              </div>
-            </ul>
-          </div>
-        </nav>
+    <div class="w3-top">
+      <div class="w3-bar topnav">
+        <a class="w3-bar-item w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#home" class="w3-bar-item w3-padding-large"><strong><i class="fa fa-home" aria-hidden="true"></i></strong></a>
+        <a href="#aboutMe" class="w3-bar-item w3-padding-large w3-hide-small"><strong><i class="fa fa-user-o" aria-hidden="true"></i> About Me</strong></a>
+        <a href="#projects" class="w3-bar-item w3-padding-large w3-hide-small"><i class="fa fa-briefcase" aria-hidden="true"></i><strong> Portfolio</strong></a>
+        <a href="#contact" class="w3-padding-large w3-hide-small w3-right"><i class="fa fa-address-card-o fa-lg" aria-hidden="true"></i><strong> Contact</strong></a>
       </div>
     </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navSmall" class="w3-bar-block w3-light-grey w3-card-2 w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="#home" class="w3-bar-item w3-button w3-padding-large">Home</a>
+      <a href="#aboutMe" class="w3-bar-item w3-button w3-padding-large">About Me</a>
+      <a href="#projects" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    </div>
+
 
     <!-- Header -->
     <header id="home" class="bgimg w3-display-container w3-grayscale-min">

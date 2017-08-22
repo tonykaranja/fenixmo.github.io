@@ -1,24 +1,11 @@
 body, html {height: 100%}
 
-ul.topnav {
-  list-style-type: none;
-  position: fixed;
-  top: 0;
-  z-index: 70;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-ul.topnav li {
+.topnav a {
   float: left;
   margin: 8px;
-  background: rgba(255,255,255, 0.18);
+  background: rgba(255,255,255, 0.1);
   border-radius: 5px;
-}
-
-ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -27,24 +14,20 @@ ul.topnav li a {
   color: #000;
 }
 
-ul.topnav li a:hover:not(.active) {
+.topnav a:hover:not(.active) {
   border: 1px;
-  border-color: rgba(237, 253, 255,0.5);
+  border-color: rgba(237, 253, 255,0.4);
   border-style: groove;
   border-radius: 2.5px;
-  background-color: rgba(237, 253, 255, 0.5);
+  background-color: rgba(237, 253, 255, 0.4);
 
 }
-ul.topnav li a.active {
+.topnav a.active {
   border: 1px;
   border-color: rgba(237, 253, 255, 0.4);
   border-style: inset;
   border-radius: 5px;
   background-color: rgba(237, 253, 255, 0.3);
-
-}
-ul.topnav li.right {
-  float: right;
 }
 
 .bgimg {
