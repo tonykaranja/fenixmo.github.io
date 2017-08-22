@@ -57,7 +57,7 @@ body, html {height: 100%}
 
 #contact {
   position: relative;
-  /*background-image: url();*/
+  background-image: url(../img/pen-paper-white.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -66,6 +66,7 @@ body, html {height: 100%}
   bottom: 0;
   width: 100%;
   z-index: -1;
+  /*color: white;*/
 }
 
 #contact ul {
