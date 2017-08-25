@@ -57,7 +57,7 @@ body, html {height: 100%}
 
 #contact {
   position: relative;
-  background-image: url(../img/pen-paper-white.jpeg);
+  background-image: url("../img/pen-paper-white.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -75,9 +75,4 @@ body, html {height: 100%}
 
 #qmimg {
   width:100%;
-}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
 }
