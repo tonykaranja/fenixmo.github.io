@@ -1,4 +1,8 @@
-body, html {height: 100%}
+body, html {height: 100%; width:100%; margin:0; padding:0;}
+
+body {
+  font-size: 100%;
+}
 
 
 .topnav a {
@@ -75,4 +79,18 @@ body, html {height: 100%}
 
 #qmimg {
   width:100%;
+}
+
+#extra-info {
+
+  font-size: 2.5em;
+  font-family: 'Marck Script', cursive;
+  max-height: 80%
+
+}
+
+
+.pic-slides img {
+  max-width:100%;
+  max-height:100%;
 }
